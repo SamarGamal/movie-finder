@@ -58,14 +58,14 @@ public class TMDBService {
     @Setter
     @AllArgsConstructor
     @NoArgsConstructor
-    private static class GenresTMDBResponse{
+    public static class GenresTMDBResponse{
         private List<Genre> genres;
     }
     @Getter
     @Setter
     @AllArgsConstructor
     @NoArgsConstructor
-    private static class PopularMoviesTMDBResponse{
+    public static class PopularMoviesTMDBResponse{
         private int page;
         private List<TMDBMovie> results;
     }
